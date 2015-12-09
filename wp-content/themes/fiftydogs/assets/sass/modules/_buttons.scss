@@ -1,0 +1,36 @@
+// _buttons.scss
+
+$btn: (
+  height: 50px,
+  padding: 17px 25px,
+);
+
+
+.btn {
+ 	height: map-get($btn, height);
+	line-height: 1;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: $font-default;
+	display: inline-block;
+	padding: map-get($btn, padding);
+	@include transition(background 200ms ease-in-out, color 200ms ease-in-out);
+
+	&.btn--primary {
+		background-color: $color-primary;
+		color: #fff;
+
+		&:hover {
+			background-color: $color-primary-dark;
+		}
+	}
+
+	&.btn--secondary {
+		background-color: $color-primary;
+
+		&:hover {
+			background-color: $color-primary-dark;
+		}
+	}
+}

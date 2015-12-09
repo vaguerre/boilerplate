@@ -1,0 +1,82 @@
+// _comments.scss
+
+ol.comment-list {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+
+	li.comment {
+		width: 100%;
+		padding: 0 0 0 20px;
+		border-left: 2px solid $color-offwhite;
+		margin-bottom: 30px;
+	}
+	a.comment-reply-link,
+	a.comment-edit-link {
+		color: $color-primary;
+		font-size: 14px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+
+
+	ol.children {
+		list-style-type: none;
+		padding-left: 20px;
+
+		li {
+			margin-top: 20px;
+			margin-bottom: 0;
+
+		}
+	}
+
+.comment-meta {
+	width: 100%;
+	float: left;
+
+	img.avatar {
+		border-radius: 50%;
+		float: left;
+	}
+}
+
+.comment-author {
+	b.fn {
+		margin-left: 15px;
+		font-size: 16px;
+	}
+}
+.comment-metadata time {
+	margin-left: 15px;
+}
+span.edit-link {
+	margin-left: 5px;
+	a {
+		
+	}
+
+	&:hover {
+		color: $color-primary-dark;
+	}
+}
+
+.comment-content {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+.comment-respond {
+	margin: 50px 0 150px;
+}
+h3.comment-reply-title {
+	@extend %h4;
+}
+
+p.comment-form-comment {
+	label {
+		display: block;
+	}
+}

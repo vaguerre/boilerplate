@@ -1,0 +1,92 @@
+// _menu.scss
+
+.menu {
+	li {
+		display: inline-block;
+	}
+
+	a {
+		font-size: 18px;
+		font-family: $font-default;
+		letter-spacing: 0.54px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	&.menu--transparent {
+		a {
+			color: rgba(255,255,255,.5);
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.menu--footer {
+	text-align: left;
+
+	li {
+		padding: 0 20px;
+
+		&:first-of-type {
+			padding-left: 0;
+		}
+	}
+
+	a {
+		color: $color-primary;
+	}
+}
+
+
+/**
+ * Social Menu
+ */
+.social-menu {
+	text-align: center;
+	margin: 25px 0 0;
+
+	&.social-menu--footer {
+		text-align: right;
+		margin: 0;
+
+		.social-menu__item:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
+	.social-menu__item {
+		display: inline-block;
+		margin: 0 20px;
+
+		a {
+			color: $color-primary;
+			font-size: 28px;
+			@include transition(color 200ms ease-in-out);
+
+			&:hover {
+				color: darken($color-primary, 8);
+			}
+		}
+	}
+
+@include media(767px) {
+	.menu--footer {
+		text-align: center;
+		line-height: 28px;
+
+		li {
+			padding: 0;
+		}
+	}
+	.social-menu.social-menu--footer {
+		text-align: center;
+		margin-top: 30px;
+
+		.social-menu__item:last-of-type {
+			margin-right: 20px;
+		}
+	}
+}

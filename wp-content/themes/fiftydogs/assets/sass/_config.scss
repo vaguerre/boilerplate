@@ -1,0 +1,55 @@
+// _config.scss
+
+/**
+ * Font Family
+ */
+$font-default							: "brandon-grotesque", "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif								: "ff-meta-serif-web-pro", "Georgia", Georgia, serif;
+$fa												: "FontAwesome", FontAwesome;
+
+
+
+/**
+ * Colors
+ */
+
+$color-primary            : #4ac2be; // Teal
+$color-primary-dark       : #31a9a5; // Teal darkened 10%
+$color-primary-light      : #64dcd8; // Teal lightened 10%
+
+$color-secondary          : #ffca61; // Yellow
+$color-secondary-dark     : #e6b148; // Yellow darkened 10%
+$color-secondary-light    : #ffe47b; // Yellow lightened 10%
+
+$color-anchor-default     : #4ac2be; 
+
+$color-gray       				: #2b2e33;
+$color-gray-dark  				: #12151a;
+$color-gray-light 				: #45484d;
+
+$color-offwhite         	: #f0f0f0; // Offwhite
+
+$color-text-default     	: #262729;
+$color-text-light         : #595a5c;
+
+
+$color-success          	: #94df60;
+$color-error            	: #e16060;
+
+/**
+ * Breakpoints
+ */
+$breakpoint-mobile : 767px;
+
+
+/**
+ * Transitions
+ */
+$transitions : (
+  default : ease-in-out, 
+  cubic   : cubic-bezier(.64,.09,.08,1)
+);
+
+
+
+
