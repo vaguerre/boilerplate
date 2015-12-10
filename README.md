@@ -1,12 +1,13 @@
 # Intern Starter Theme
 
 For use on intern project 2015.
+
 This will be an ongoing project. Objectives & requirements may be adjusted as the project progresses.
 
 
 ## Project objectives
 1. Create custom WP theme for `Fifty Dogs` site
-2. Create [custom post types](https://codex.wordpress.org/ and [taxonomies](https://codex.wordpress.org/Taxonomies)
+2. Create [custom post types](https://codex.wordpress.org/) and [taxonomies](https://codex.wordpress.org/Taxonomies)
 3. Become familiar with [WP template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 5. Understand [WP Query](https://codex.wordpress.org/Class_Reference/WP_Query) and using [The Loop](https://codex.wordpress.org/The_Loop)
 6. Understand post meta
