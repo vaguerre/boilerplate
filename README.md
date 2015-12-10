@@ -11,7 +11,8 @@ This will be an ongoing project. Objectives & requirements may be adjusted as th
 3. Become familiar with [WP template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 5. Understand [WP Query](https://codex.wordpress.org/Class_Reference/WP_Query) and using [The Loop](https://codex.wordpress.org/The_Loop)
 6. Understand post meta
-7. Practice git pushing, pulling, merging, and resolving conflicts
+7. Become familiar with plugins that we normally use
+8. Practice git pushing, pulling, merging, and resolving conflicts
 
 
 ## Steps
@@ -42,3 +43,6 @@ Customize theme with the following
 - Blog
 - Archive (Dogs, Staff)
 - Single (Blog, Dogs, Staff)
+- Install the following plugins:
+	* [Gravity Forms](http://www.gravityforms.com/)
+	* [Yoast SEO](https://yoast.com/wordpress/plugins/seo/)
