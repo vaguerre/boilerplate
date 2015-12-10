@@ -21,6 +21,7 @@ This will be an ongoing project. Objectives & requirements may be adjusted as th
 	* `$ cd <theme>`
 	* `$ sudo gem install sass`
 	* `$ npm install -g gulp`
+	* `$ npm install`
 	* `$ gulp`
 
 - [ ] Create individual GitHub repos for project, add `tracyhebrew` as collaborator
