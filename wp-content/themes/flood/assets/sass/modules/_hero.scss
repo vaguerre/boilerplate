@@ -1,0 +1,35 @@
+// _hero.scss
+
+$hero: (
+  height:			 		    	600px,
+  height_mobile: 				400px,
+);
+
+
+.hero {
+	width: 100%;
+  height: map-get($hero, height);
+  overflow: hidden;
+  position: relative;
+}
+	
+	// Hero elements
+	.hero__bg {
+		width: auto;
+		min-width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+
+	.hero__inner {
+		width: 100%;
+		max-width: 1000px;
+		padding: 0 20px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		text-align: center;
+		padding-top: 100px;
+		@include transform(translateX(-50%) translateY(-50%));
+	}

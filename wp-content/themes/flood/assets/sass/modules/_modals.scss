@@ -1,0 +1,72 @@
+// _modals.scss
+
+
+#modals {
+
+}
+
+.modal {
+	width: 80%;
+	max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  box-shadow: 1px 1px 37px 10px rgba(0,0,0,.13);
+  padding: 60px;
+
+  &.modal--padded {
+    .modal__content {
+      padding: 55px 75px;
+    }
+  }
+}
+  
+  .modal__header {
+    padding: 40px 60px;
+    width:100%;
+  }
+    
+
+  .modal__content {
+    width:100%;
+    padding: 45px;
+  }
+
+    .modal__body {
+      position: relative;
+      padding-left:40px;
+    }
+
+  .modal__footer {
+    width:100%;
+    border-top: 1px solid $color-offwhite;
+    padding: 25px;
+    text-align: center;
+  }
+  
+
+  /**
+   * Modal Close
+   */
+  .modal--close { 
+    position:absolute;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    color: $color-secondary;
+
+    i { }
+
+    &:hover {
+      color: $color-secondary-dark;
+      i { }
+    }
+  }
+
+

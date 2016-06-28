@@ -1,0 +1,13 @@
+// _buttons.scss
+
+$btn: (
+  height: 50px,
+  padding: 0 25px,
+);
+
+
+.btn {
+ 	height: map-get($btn, height);
+	padding: map-get($btn, padding);
+	@include transition(background 200ms ease-in-out, color 200ms ease-in-out);
+}

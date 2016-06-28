@@ -4,13 +4,14 @@
 ## Static HTML site
 
 Getting started
+Site runs at `http://localhost:4000/`
+
 * `$ cd app`
 * `$ sudo gem install sass`
-* `$ npm install -g gulp`
 * `$ npm install`
 * `$ gulp`
 
-Site runs at `http://localhost:4000/`
+
 
 
 ## 2016 WP Theme
@@ -18,6 +19,5 @@ Site runs at `http://localhost:4000/`
 Getting started
 * `$ cd <theme>`
 * `$ sudo gem install sass`
-* `$ npm install -g gulp`
 * `$ npm install`
 * `$ gulp`
