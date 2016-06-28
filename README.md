@@ -1,8 +1,21 @@
-# Fifty Boiler Theme
+# Flood Church
+2016
 
-2016 Boilerplate - WP + Flywheel theme
+## Static HTML site
 
-## Getting started
+Getting started
+* `$ cd app`
+* `$ sudo gem install sass`
+* `$ npm install -g gulp`
+* `$ npm install`
+* `$ gulp`
+
+Site runs at `http://localhost:4000/`
+
+
+## 2016 WP Theme
+
+Getting started
 * `$ cd <theme>`
 * `$ sudo gem install sass`
 * `$ npm install -g gulp`
