@@ -1,7 +1,7 @@
 {
-	"name": "flood-html",
+	"name": "boilerplate-html",
 	"version": "0.0.0",
-	"description": "Flood 2016 Static HTML site",
+	"description": "Fifty Boilerplate HTML static site",
 	"main": "gulpfile.js",
 	"dependencies": {
 	"connect-livereload": "*",

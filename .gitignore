@@ -7,7 +7,9 @@
 *.swp
 Thumbs.db
 
+# static build specifici
 /app/node_modules/
+/app/.sass-cache/
 
 # wordpress specific
 wp-config.php
