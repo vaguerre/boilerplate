@@ -41,7 +41,7 @@ Compiling styles: WP theme
 
 ## WP CMB2 setup
 https://github.com/WebDevStudios/CMB2
-* The following folders must be uploaded to server (using Transmit, Cyber Duck or other to SFTP files). From `mu-plugins` folder:
+* The following folders must be uploaded to server (using Transmit, Cyber Duck or other to SFTP files):
   * [CMB2](https://github.com/WebDevStudios/CMB2) `mu-plugins/cmb2` 
   * [CMB2 Attached Posts](https://github.com/WebDevStudios/cmb2-attached-posts) `mu-plugins/cmb2-attached-posts`
   * [WDS Simple Page Builder](https://github.com/WebDevStudios/WDS-Simple-Page-Builder/wiki) `mu-plugins/wds-simple-page-builder` 
