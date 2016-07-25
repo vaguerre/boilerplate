@@ -3,8 +3,11 @@
 Both the Static HTML site and custom WP theme are included in this repository. See details below for getting local environments setup.
 
 Find all and replace `fiftyboilerplate`
+
 Find all and replace `FIFTYBOILERPLATE`
+
 Find all and replace `Fifty Boilerplate`
+
 Find all and replace `Fiftyboilerplate`
 
 Local Setup Walkthrough [Google Doc](https://docs.google.com/a/fiftyandfifty.org/document/d/1mlA4cf6NTcEKCAWWqABudNqxpMJkm6dvNXwndBd1S5Q/edit?usp=sharing)
