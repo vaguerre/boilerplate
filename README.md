@@ -2,10 +2,10 @@
 
 Both the Static HTML site and custom WP theme are included in this repository. See details below for getting local environments setup.
 
-Find all and replace `fiftyboilerplate`
-Find all and replace `FIFTYBOILERPLATE`
-Find all and replace `Fifty Boilerplate`
-Find all and replace `Fiftyboilerplate`
+* Find all and replace `fiftyboilerplate`
+* Find all and replace `FIFTYBOILERPLATE`
+* Find all and replace `Fifty Boilerplate`
+* Find all and replace `Fiftyboilerplate`
 
 
 Local Setup Walkthrough [Google Doc](https://docs.google.com/a/fiftyandfifty.org/document/d/1mlA4cf6NTcEKCAWWqABudNqxpMJkm6dvNXwndBd1S5Q/edit?usp=sharing)
@@ -17,7 +17,7 @@ Local Setup Walkthrough [Google Doc](https://docs.google.com/a/fiftyandfifty.org
 	* WP site runs at path set in `vhosts.conf` and `hosts` files. ex: `site.dev`
 
 
-Getting started: Static site
+#### Getting started: Static site
 * `$ cd app`
 * `$ sudo gem install sass`
 * `$ npm install`
@@ -26,7 +26,7 @@ Getting started: Static site
 Site runs at `http://localhost:4000/`
 
 
-Getting started: WP theme
+#### Getting started: WP theme
 * Install WP locally: `$ cd <project>; wp core download`
 * Add dev db to Sequel Pro
 * Create and update `wp-config.php` file
@@ -39,7 +39,7 @@ Compiling styles: WP theme
 * `$ gulp`
 
 
-CMB2 setup
+#### CMB2 setup
 https://github.com/WebDevStudios/CMB2
 * The following folders must be uploaded to server (using Transmit, Cyber Duck or other to SFTP files). From `mu-plugins` folder:
   * [CMB2](https://github.com/WebDevStudios/CMB2) `cmb2` basic 
