@@ -10,3 +10,6 @@
 
 // Hero Metafields
 // require_once get_stylesheet_directory() . '/includes/fields/cmb2-hero.php';
+
+// UI Kit fields
+// require_once get_stylesheet_directory() . '/includes/fields/cmb2-uikit.php';

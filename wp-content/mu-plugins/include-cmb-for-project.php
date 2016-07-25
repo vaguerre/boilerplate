@@ -11,4 +11,4 @@ if ( ! function_exists( 'cmb2_attached_posts_fields_render' ) ) {
 
 
 // Include Simple Page Builder globally for this site.
-// require WPMU_PLUGIN_DIR . '/wds-simple-page-builder/wds-simple-page-builder.php';
+require WPMU_PLUGIN_DIR . '/wds-simple-page-builder/wds-simple-page-builder.php';
