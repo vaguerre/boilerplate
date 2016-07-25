@@ -39,11 +39,11 @@ Compiling styles: WP theme
 * `$ gulp`
 
 
-#### CMB2 setup
+## WP CMB2 setup
 https://github.com/WebDevStudios/CMB2
 * The following folders must be uploaded to server (using Transmit, Cyber Duck or other to SFTP files). From `mu-plugins` folder:
-  * [CMB2](https://github.com/WebDevStudios/CMB2) `cmb2` basic 
-  * [CMB2 Attached Posts](https://github.com/WebDevStudios/cmb2-attached-posts) `cmb2-attached-posts`
-  * [WDS Simple Page Builder](https://github.com/WebDevStudios/WDS-Simple-Page-Builder/wiki) `wds-simple-page-builder` 
+  * [CMB2](https://github.com/WebDevStudios/CMB2) `mu-plugins/cmb2` 
+  * [CMB2 Attached Posts](https://github.com/WebDevStudios/cmb2-attached-posts) `mu-plugins/cmb2-attached-posts`
+  * [WDS Simple Page Builder](https://github.com/WebDevStudios/WDS-Simple-Page-Builder/wiki) `mu-plugins/wds-simple-page-builder` 
 * The file `/mu-plugins/include-cmb-for-project.php` includes the necessary mu-plugins. The WDS Simple Page builder is commented out in line 14 of this file. To use the Simple Page builder, you must uncomment that line.
 * CMB2 fields can be created in the folder `theme/includes/fields/...`. See `fields/cmb2-hero.php` for example and [Field Types here](https://github.com/WebDevStudios/CMB2/wiki/Field-Types). To include the fields, the files must be added in the `functions.php` file in the `init` function
